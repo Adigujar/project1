@@ -1,0 +1,66 @@
+.bg {
+    background-image: url("https://c.ndtvimg.com/2020-05/9iuj3h1g_indian-food_625x300_19_May_20.jpg");
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bolder;
+    color:rgb(2, 18, 22);
+    font-style: italic;
+    border-radius: 25%;
+    background-color: rgb(236, 63, 19);
+}
+
+
+.input{
+    border-radius: 3px;
+    position: absolute;
+    top: -150px;
+    left: 200px;
+    margin: auto;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+.btn{
+    position: absolute;
+    top: -150px;
+    left: 480px;
+    margin: auto;
+}
+
+.column1 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    height: 500px;
+  }
+.column2 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: 500px;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
